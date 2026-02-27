@@ -51,7 +51,7 @@ class ThirdActivity : ComponentActivity() {
 @Composable
 fun MyContent(modifier: Modifier = Modifier) {
     val mContext = LocalContext.current
-    val mMediaPlayer = MediaPlayer.create(mContext, R.raw.sample)
+    val mMediaPlayer = MediaPlayer.create(mContext, R.raw.duki)
 
     Column(
         modifier = Modifier.fillMaxSize(),
